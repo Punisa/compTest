@@ -1,0 +1,11 @@
+{
+    "name": "sven4/composer-test",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "deep\\": "deep/",
+            "deep\\deeper\\": "deep/deeper/"
+        }
+    }
+}
